@@ -25,7 +25,7 @@ const app = express();
 // This allows your frontend (on a different domain) to make requests to this backend
 // Define the allowed origins
 const allowedOrigins = [
-  'http://localhost:3000', // Your local frontend for testing
+  'http://localhost:10000', // Your local frontend for testing
   'https://pysc-nova-frontend.vercel.app' // YOUR LIVE VERCEL URL
 ];
 
