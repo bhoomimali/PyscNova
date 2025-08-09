@@ -1,6 +1,7 @@
 // routes/moodRoutes.js
 const express = require('express');
 const router = express.Router();
+// Added a comment to force a Git update
 const Mood = require('../models/moodModel');
 const { protect } = require('../middleware/authMiddleware');
 
