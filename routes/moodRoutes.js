@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 // Added a comment to force a Git update
-const Mood = require('../models/moodModel');
+const Mood = require('../Models/moodTracker');
 const { protect } = require('../middleware/authMiddleware');
 
 // @desc    Save or update today's mood
