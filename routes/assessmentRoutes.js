@@ -1,7 +1,7 @@
 // routes/assessmentRoutes.js
 const express = require('express');
 const router = express.Router();
-const Assessment = require('../models/assessmentModel');
+const Assessment = require('../Models/assessmentModel');
 const { protect } = require('../middleware/authMiddleware'); // Import our gatekeeper
 
 // @desc    Submit a new assessment

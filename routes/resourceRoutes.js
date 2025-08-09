@@ -1,7 +1,7 @@
 // routes/resourceRoutes.js
 const express = require('express');
 const router = express.Router();
-const Resource = require('../models/resourceModel');
+const Resource = require('../Models/resourceModel');
 
 // @desc    Fetch resources by category
 // @route   GET /api/resources?category=Mild

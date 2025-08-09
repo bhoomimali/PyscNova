@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router(); // <--- THIS LINE WAS LIKELY MISSING. IT IS CRUCIAL.
 
-const User = require('../models/userModel');
+const User = require('../Models/userModel');
 const bcrypt = require('bcryptjs');
 const generateToken = require('../utils/generateToken');
 
