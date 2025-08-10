@@ -41,11 +41,9 @@ const corsOptions = {
     return callback(null, true);
   }
 };
-// --- Add this line to handle preflight requests ---
-app.options('*', cors(corsOptions)); 
+// in server.js, right after `const app = express();`
 
-// Use the configured CORS middleware
-app.use(cors(corsOptions));
+app.use(cors());
 
 // Enable the Express app to parse JSON formatted request bodies
 // This is necessary to handle POST/PUT requests with a JSON payload
