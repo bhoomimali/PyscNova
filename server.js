@@ -41,6 +41,8 @@ const corsOptions = {
     return callback(null, true);
   }
 };
+// --- Add this line to handle preflight requests ---
+app.options('*', cors(corsOptions)); 
 
 // Use the configured CORS middleware
 app.use(cors(corsOptions));
